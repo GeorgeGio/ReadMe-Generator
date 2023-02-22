@@ -1,5 +1,5 @@
 
-# Project Title - ggg
+# Project Title - George's READme
 
 
 
@@ -14,19 +14,19 @@
  * [Contributors](#contributors)
 
 ## Installation
-gggg
+install inquirer and clone the file repo
 
 ## Usage 
-gggg
+TO use the project you have to clone the repo on your local machine and install inquirer
 
 # Contributors
-ggg
+MDN and https://www.npmjs.com/package/inquirer
 
 # Tests
-gggg
+Dysplaying the read me files - trial and error
 
 # Questions
-All questions should refer to :gggg and email to g
+All questions should refer to : https://github.com/GeorgeGio/ and email to: georgeoustapas@gmailcom 
 
 ## License
 
