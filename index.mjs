@@ -3,7 +3,7 @@ import fs from "fs/promises";
 
 
 // let describe = lorem30;
-let { project_title, description, license } = await inquirer
+let { project_title, description, installation, usage, contributors,test, question1,question2, license } = await inquirer
     .prompt([
         {
             type: 'input',
@@ -13,10 +13,40 @@ let { project_title, description, license } = await inquirer
         {
             type: 'input',
             name: 'description',
-            message: "What's your last name",
+            message: "Please give some Description of the project you created",
             default() {
-                return lorem20;
+                return "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde porro est quam nam suscipit hic maxime dignissimos, aliquid eius. Aperiam, vitae eum. Debitis, numquam pariatur! Quaerat quibusdam cumque necessitatibus cum!";
             },
+        },
+        {
+            type: 'input',
+            name: 'installation',
+            message: "What you need to do for installing the project",
+        },
+        {
+            type: 'input',
+            name: 'usage',
+            message: "Explain how to use the project",
+        },
+        {
+            type: 'input',
+            name: 'contributors',
+            message: "State if you received any aid from another developer",
+        },
+        {
+            type: 'input',
+            name: 'test',
+            message: "What's tests did you carry out",
+        },
+        {
+            type: 'input',
+            name: 'question1',
+            message: "If you have any questions give your GitHub link ",
+        },
+        {
+            type: 'input',
+            name: 'question2',
+            message: "If you want a reply please give your email ",
         },
         {
             type: 'list',
@@ -47,21 +77,29 @@ const testReadme =
 ## Table of Contents 
  * [Installation](#installation)
  * [Usage](#usage)
+ * [License](#license)
+ * [Contributors](#contributors)
 
 ## Installation
+${installation}
 
 ## Usage 
+${usage}
+
+# Contributors
+${contributors}
+
+# Tests
+${test}
+
+# Questions
+${question1}
+${question2}
 
 ## License
 
 ### License
 ${licenseGenerator(license)}
-
-# Contributing 
-
-# Tests
-
-# Questions 
 `
 
 await fs.writeFile("README.md", testReadme);
