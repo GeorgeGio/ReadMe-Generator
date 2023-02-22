@@ -93,8 +93,7 @@ ${contributors}
 ${test}
 
 # Questions
-${question1}
-${question2}
+All questions should refer to : ${question1} and email to: ${question2}
 
 ## License
 
