@@ -1,34 +1,54 @@
-
-# Project Title - George's READme
-
+# README file Generator - George Oustapasidis    
 
 
+## Description
 
-## Description 
- - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde porro est quam nam suscipit hic maxime dignissimos, aliquid eius. Aperiam, vitae eum. Debitis, numquam pariatur! Quaerat quibusdam cumque necessitatibus cum!
+In this project, our objective was to create an Application that one can use to generate a REad me file from the command line. They would have some criteria which will specify the structure of the file. This file will be generated in your folder or repo. 
 
-## Table of Contents 
- * [Installation](#installation)
- * [Usage](#usage)
- * [License](#license)
- * [Contributors](#contributors)
+Our app has to showcase our ability to create :
+
+* The title of my project 
+    * Sections entitled:
+      * Description 
+      * Table of Contents 
+      * Installation 
+      * Usage 
+      * License 
+      * Contributing 
+      * Tests 
+      * Questions
+    * When a user enters the project title then it is displayed as the title of the README
+    * When a user enters a description, installation instructions, usage information, contribution guidelines, and test instructions then this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+    * When a user chooses a license for their application from a list of options then a badge for that license is added near the top of the README and a notice is added to the section of the README entitled **License** that explains which license the application is covered under
+    * When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
+    * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
+    * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
+<br>
+<br>
+
+## Demo Representation of ideal Demo-APP on the webpage
+
+https://drive.google.com/file/d/12iqX0Jeud5g13Vw8vY99Gl6EbBajTEJ9/view  
+
 
 ## Installation
-install inquirer and clone the file repo
+  https://github.com/GeorgeGio/ReadMe-Generator  
+  the repo should be clone to the local machine
 
-## Usage 
-TO use the project you have to clone the repo on your local machine and install inquirer
 
-# Contributors
-MDN and https://www.npmjs.com/package/inquirer
+<br>
+<br>
 
-# Tests
-Dysplaying the read me files - trial and error
 
-# Questions
-All questions should refer to : https://github.com/GeorgeGio/ and email to: georgeoustapas@gmailcom 
+
+## Deployment of Password Generator webpage
+ 
+https://github.com/GeorgeGio/ReadMe-Generator
+
 
 ## License
+Copyright (c) Microsoft Corporation. All rights reserved.
 
-### License
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+Licensed under the [MIT](./LICENSE) license.
+
+

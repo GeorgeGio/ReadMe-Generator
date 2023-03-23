@@ -101,7 +101,7 @@ All questions should refer to : ${question1} and email to: ${question2}
 ${licenseGenerator(license)}
 `
 
-await fs.writeFile("README.md", testReadme);
+await fs.writeFile("created-readme.md", testReadme);
 
 function licenseGenerator(params) {
 
